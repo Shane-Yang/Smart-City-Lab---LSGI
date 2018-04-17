@@ -1555,3 +1555,7 @@
 .news_title {
     text-align:left;
 }
+
+.text-body {
+    text-align: justify
+}
