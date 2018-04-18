@@ -16,6 +16,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+        font-family: Oxygen, Arial, sans-serif; 
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -97,7 +98,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family:Roboto, Arial, Helvetica, 'Heiti TC', 'Microsoft Jhenghei Fixed', 'Microsoft Jhenghei', sans-serif,"Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 200;
 		line-height: 1.65;
@@ -153,6 +154,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+        font-family: Roboto, Arial, Helvetica, 'Heiti TC', 'Microsoft Jhenghei Fixed', 'Microsoft Jhenghei', sans-serif;
 		font-weight: 400;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -973,10 +975,12 @@
 			border: solid 1px;
 			border-left: 0;
 			border-right: 0;
+            
 		}
 
 		table td {
 			padding: 0.75em 0.75em;
+            background-color:#FFFFFF;
 		}
 
 		table th {
@@ -1292,13 +1296,14 @@
 		-ms-flex-direction: column;
 		flex-direction: column;
 		padding: 8em 0 6em 0;
-		background-image: url("../../images/banner.jpg");
+        background-image: url("../../images/banner.jpg");
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
-		text-align: center;
+        text-align: center;
 		position: relative;
 		cursor: default;
+        
 	}
 
 		#header input, #header select, #header textarea {
@@ -1353,6 +1358,7 @@
 		#header .inner {
 			position: relative;
 			z-index: 1;
+            font-size: 20px;
 		}
 
 		#header.alt {
@@ -1373,11 +1379,10 @@
 			}
 
 			#header.alt h1 {
-				font-size: 4em;
+				font-size: 3em;
 				padding: 0 0.5em 0.25em 0.5em;
 				border-bottom: solid 2px #ffffff;
-				font-weight: 200;
-				font-family: "Pacifico", cursive;
+				font-weight: 500;                   font-family:Oxygen, Arial, sans-serif; 
 				text-transform: none;
 				letter-spacing: 0;
 			}
@@ -1558,4 +1563,95 @@
 
 .text-body {
     text-align: justify
+}
+
+.logo {
+    position:absolute;
+    float: left;
+    top:10px;
+    left: 10px;
+    
+}
+
+.logo img {
+    height: 30px;
+}
+
+.reacher_inner {
+    position: relative;
+    font-size: 1em;
+    float: right
+}
+
+#header_r {
+        background-color: #444;
+		color: rgba(255, 255, 255, 0.75);
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		padding: 8em 0 6em 0;
+		background-image: url("../../images/banner-r.jpg");
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		text-align: center;
+		position: relative;
+		cursor: default;
+        height: 5em;
+        min-height: 3em;
+}
+
+
+
+#reacher_intro {
+    padding: 4em 4em 2em 4em;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#language {
+    position:absolute;
+    top:10px;
+    right: 10px;
+    float: right;
+}
+
+#intro_r {
+    	padding: 1em 2em 2em 2em;
+		background-color: #ffffff;
+		border-radius: 1px;
+}
+
+#intro_r h2,h3,h4{
+    text-align:left;
+    font-weight: 500;
+    color:dimgrey;
+}
+#intro_r h1{
+    text-align:right;
+    font-weight: 900;
+    color:dimgrey;
+}
+#intro_r p{
+    text-align: justify;
+    color:darkgray;
+}
+
+.pic_name {
+    text-align:center;
+    font-size: 0.8em;
+    color:darkgray;
 }
