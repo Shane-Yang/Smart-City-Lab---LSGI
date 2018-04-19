@@ -1664,3 +1664,12 @@
 #shebei p{
     margin: 0 auto;
 }
+
+.cutline {
+    text-align:center;
+    padding: 0 0 1em 0;
+}
+
+.cutline img{
+    width: 80%
+}
