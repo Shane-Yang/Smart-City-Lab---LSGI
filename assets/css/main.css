@@ -1575,6 +1575,7 @@
 
 .logo img {
     width: 25%;
+    float: left;
 }
 
 .reacher_inner {
