@@ -1160,6 +1160,7 @@
 				-webkit-pointer-events: none;
 				-ms-pointer-events: none;
 				pointer-events: none;
+                text-align:center;
 			}
 
 	.items {
